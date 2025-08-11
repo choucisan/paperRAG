@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./images/PaperRAG.png" width="400px" alt="Paper RAG Logo"/>
+<img src="./images/PaperRAG.png" width="1000px" alt="Paper RAG Logo"/>
 
 <h2 id="title">PaperRAG</h2>
 
