@@ -7,52 +7,52 @@
 </div>
 
 <p align="center">
-基于 <a href="https://github.com/choucisan/TranslaTex" target="_blank">TranslaTex 项目</a>，增加了 RAG（检索增强生成）功能，实现论文的智能检索与问答。<br>
+Based on the <a href="https://github.com/choucisan/TranslaTex" target="_blank">TranslaTex project</a>, this version adds RAG (Retrieval-Augmented Generation) functionality, enabling intelligent paper retrieval and Q&A. <br>
 </p>
 
 ---
 
-<h2 id="功能亮点">✨ 主要功能</h2>
+<h2 id="features">✨ Key Features</h2>
 
-- 📝 支持翻译 `.tex` 文件及 arXiv 论文源码，自动本地编译生成 PDF，方便快速阅读与修改
-- 🔍 收录超过3万篇计算机视觉领域顶会论文摘要（CVPR、ICCV、ECCV），支持语义检索与智能问答
-- 🤖 集成 RAG（Retrieval-Augmented Generation）技术，结合知识库检索与大语言模型，实现上下文相关的高质量论文内容生成
-- 🖥️ 采用 Gradio 打造简洁直观的图形界面，操作简单，界面友好，支持交互式论文查询与翻译
+- 📝 Supports translating `.tex` files and arXiv paper source codes, with automatic local PDF compilation for fast reading and editing  
+- 🔍 Contains over **30,000 abstracts** from top computer vision conferences (CVPR, ICCV, ECCV), enabling semantic retrieval and intelligent Q&A  
+- 🤖 Integrated **RAG (Retrieval-Augmented Generation)** technology: combines knowledge-base retrieval with large language models to provide high-quality, context-aware paper content generation  
+- 🖥️ Built with **Gradio**, offering a clean and intuitive graphical interface for interactive paper search and translation  
 
 ---
 
-<h2 id="界面展示">🖼️ 界面预览</h2>
+<h2 id="ui">🖼️ Interface Preview</h2>
 
-### 论文翻译
-
-<div align="center">
-<img src="./images/en2zh.png" width="80%" alt="论文翻译示例"/>
-</div>
-
-### RAG 论文检索
+### Paper Translation
 
 <div align="center">
-<img src="./images/rag.png" width="80%" alt="RAG 检索生成示例"/>
+<img src="./images/en2zh.png" width="80%" alt="Paper Translation Example"/>
 </div>
 
+### RAG Paper Retrieval
 
+<div align="center">
+<img src="./images/rag.png" width="80%" alt="RAG Retrieval Example"/>
+</div>
 
-## 🚀 快速开始
+---
 
-### 1. 克隆项目
+## 🚀 Quick Start
+
+### 1. Clone the Project
 
 ```bash
 git clone https://github.com/choucisan/TranslaTex.git
 cd TranslaTex
 ```
 
-### 2. 安装latex
+### 2. Install LaTeX
 ```bash
 xelatex --version
 bibtex --version
 ```
 
-### 3. 启动图形界面
+### 3. Launch the GUI
 
 ```bash
 python app.py
